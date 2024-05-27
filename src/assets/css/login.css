@@ -1,0 +1,85 @@
+body {
+    background: #f8f9fd;
+    font-family: "Poppins", sans-serif;
+}
+
+.d-main-login-inner {
+    width: 1170px;
+    background: #f14571;
+    margin: 10% auto;
+    box-shadow: 0 0 12px #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.d-main-login-inner > * {
+    display: inline-block;
+    width: 49.5%;
+    background: #fff;
+    
+    vertical-align: middle;
+}
+
+.d-main-login-inner .d-ml-right {
+    background: #f14571;
+}
+
+.d-ml-right-inner {
+    padding: 10px;
+}
+
+.d-ml-right-inner h3 {
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+    font-size: 28px;
+}
+
+.d-main-login-inner .d-ml-left .d-ml-left-inner {
+    padding: 35px 60px;
+}
+
+.d-main-login-inner .d-ml-left .d-ml-left-inner h3 {
+    font-size: 31px;
+    margin: 0;
+    line-height: 1em;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #333;
+}
+
+.d-ml-form-item {
+    margin-bottom: 20px;
+}
+
+.d-ml-form-item label {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    line-height: 1em;
+}
+
+.d-ml-form-item input[type="text"],
+.d-ml-form-item input[type="password"] {
+    display: block;
+    padding: 20px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    background: #ccc;
+    width: 90%;
+}
+
+.d-ml-form-item input[type="submit"] {
+    background: #f14571;
+    display: block;
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    cursor: pointer;
+}

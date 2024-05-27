@@ -1,0 +1,70 @@
+body {
+    background: #f8f9fd;
+    font-family: "Poppins", sans-serif;
+}
+
+.d-dashboard-inner {
+    padding: 30px 60px;
+}
+
+.d-dashboard-navi {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.d-dashboard-info {
+    width: 74%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.d-dashboard-header .d-dashboard-main-search {
+    display: inline-block;
+    width: 80%;
+}
+
+.d-dashboard-header .d-dashboard-main-user {
+    display: inline-block;
+    width: 19%;
+}
+
+.d-dashboard-navi-inner {
+    background: #fff;
+    width: 90%;
+    box-shadow: 0 0 12px #ccc;
+    border-radius: 15px;
+}
+
+.d-dash-navi-menu-item {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.d-dash-navi-menu-item .d-dash-navi-menu-icon {
+    display: inline-block;
+    width: 5%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.d-dash-navi-menu-item .d-dash-navi-menu-text {
+    display: inline-block;
+    width: 92%;
+}
+
+.d-dash-navi-menu-item .d-dash-navi-menu-text a {
+    text-decoration: none;
+    color: #333;
+}
+
+.d-dash-navi-menu-item:hover {
+    background: #f6ece8;
+}
+
+.d-dashboard-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
