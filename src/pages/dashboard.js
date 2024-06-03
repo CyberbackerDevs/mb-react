@@ -41,6 +41,12 @@ function Dashboard(params) {
                                 <li>User Profile - will redirect to user profile page</li>
                                 <li>Logout - logout to the system</li>
                             </ul>
+                            <h4>User Management</h4>
+                            <ul>
+                                <li>User will be able to assign role to each member</li>
+                                <li>User will be able to invite cyberbacker to access the </li>
+                                <li></li>
+                            </ul>
                         </div>
                         <NewRequest />
                         <PRequest />

@@ -68,3 +68,56 @@ body {
     border-bottom: 1px solid #ccc;
     margin-bottom: 30px;
 }
+
+.d-sr-title .d-sr-titem,
+.d-sr-item .d-sr-litem {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.d-sr-title .d-sr-iti-details,
+.d-sr-item .d-sr-iti-details {
+    width: 40%;
+}
+
+.d-sr-title .d-sr-iti-type,
+.d-sr-item .d-sr-iti-type {
+    width: 20%;
+}
+
+.d-sr-title .d-sr-iti-cost,
+.d-sr-item .d-sr-iti-cost {
+    width: 10%;
+}
+
+.d-sr-title .d-sr-iti-owned,
+.d-sr-item .d-sr-iti-owned {
+    width: 30%;
+}
+
+.d-sr-title {
+    background: #333;
+    display: block;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.d-sr-item {
+    padding: 5px 15px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.d-section-header > h4 {
+    display: inline-block;
+    width: 30%;
+    vertical-align:middle;
+}
+
+.d-section-header .d-sh-options {
+    display: inline-block;
+    vertical-align:middle;
+    width: 69%;
+    text-align: right;
+}
